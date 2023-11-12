@@ -3,9 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Logo } from './unex-logo';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import en from '../../public/locale/en';
-import es from '../../public/locale/es';
 
 export const Header = () => {
   //change navbar color
@@ -22,11 +19,6 @@ export const Header = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
-  //I18 translate
-  // const router = useRouter();
-  // const { locale } = router;
-  // const t = locale === 'en' ? en : es;
 
   return (
     <>

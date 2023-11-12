@@ -22,7 +22,7 @@ export const Footer = () => {
             </div>
             <div className="pt-4">
               <Icon.GeoAlt />
-              &nbsp; O'Higgins 2199, CABA, Buenos Aires.
+              &nbsp; O"Higgins 2199, CABA, Buenos Aires.
             </div>
           </Col>
           <Col>
