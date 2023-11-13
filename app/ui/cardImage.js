@@ -3,14 +3,14 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 export const CardImage = () => {
   return (
-    <Container className="m-5 p-3">
+    <Container className="p-3">
       <Row className="p-4" data-aos="fade-right" data-aos-duration="1500">
-        <Col className="imgcard col col-sm-4" />
-        <Col className="col-sm-8">
+        <Col xs={12} sm={12} md={4} className="imgcard" />
+        <Col xs={12} sm={12} md={8}>
           <h1 className="text-center">METODOLOGÍA DE TRABAJO</h1>
           <br />
           <Row>
-            <Col className=" lista-icon">
+            <Col xs={12} sm={12} md={6} className=" lista-icon">
               <ul>
                 <li data-aos="zoom-in-up" data-aos-delay="400">
                   Tu socio de RR. HH. externo, sin costos de sueldos que
@@ -27,7 +27,7 @@ export const CardImage = () => {
                 </li>
               </ul>
             </Col>
-            <Col className=" lista-icon">
+            <Col xs={12} sm={12} md={6} className=" lista-icon">
               <ul>
                 <li data-aos="zoom-in-up" data-aos-delay="400">
                   Transnacional: Ofrecemos servicios de RR. HH. a empresas a lo

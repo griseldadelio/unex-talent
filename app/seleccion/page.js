@@ -8,7 +8,7 @@ export default function Seleccion() {
         style={{ minHeight: '600px', paddingTop: '25px' }}
         className=" bg-image search d-flex justify-content-center align-items-center "
       >
-        <h1>
+        <h1 className="text-center display-5 fw-bold">
           <b>BÚSQUEDA Y SELECCIÓN</b>
         </h1>
       </div>

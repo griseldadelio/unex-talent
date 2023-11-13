@@ -44,8 +44,8 @@ export const Header = () => {
               <Link className="ps-4" href="/evaluacion">
                 <h4>Evaluación</h4>
               </Link>
-              <Link className="ps-4" href="/capacitacion">
-                <h4>Capacitación</h4>
+              <Link className="ps-4" href="/consultoria">
+                <h4>Consultoría</h4>
               </Link>
               <Link className="ps-4" href="/#contacto">
                 <h4>Contacto</h4>

@@ -8,7 +8,7 @@ export default function Evaluacion() {
         style={{ minHeight: '600px', paddingTop: '25px' }}
         className=" bg-image evaluation d-flex justify-content-center align-items-center "
       >
-        <h1>
+        <h1 className="text-center display-5 fw-bold">
           <b>EVALUACIÓN DE PERSONAL</b>
         </h1>
       </div>

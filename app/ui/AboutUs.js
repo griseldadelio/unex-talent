@@ -5,7 +5,7 @@ export const AboutUs = () => {
   return (
     <Container id="nosotros">
       <Row className="p-4">
-        <h1 className="m-4">¿Por qué Unex Talent?</h1>
+        <h1 className="my-4 ">¿Por qué Unex Talent?</h1>
         <Col>
           <p>
             Garantizamos servicio absolutamente personalizado abocado a procesos
