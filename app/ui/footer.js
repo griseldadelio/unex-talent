@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import { Logo } from '../ui/unex-logo';
+import { LogoBlack } from '../ui/unex-logoBlack';
 import * as Icon from 'react-bootstrap-icons';
 import '../ui/ui.css';
 
@@ -10,7 +10,7 @@ export const Footer = () => {
       <Container className="main-footer  text-center">
         <Row>
           <Col xs={12} sm={12} md={4} className="mt-3">
-            <Logo />
+            <LogoBlack />
             <p className="text-center mt-2">Your Next Talent</p>
           </Col>
           <Col xs={12} sm={12} md={4}>

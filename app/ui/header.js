@@ -1,7 +1,8 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Logo } from './unex-logo';
+import { LogoBlack } from './unex-logoBlack';
+import { LogoWhite } from './unex-logoWhite';
 import Link from 'next/link';
 
 export const Header = () => {
@@ -23,6 +24,7 @@ export const Header = () => {
   return (
     <>
       <Navbar
+        data-="fade-down"
         style={{
           background: isScrolled ? '#ebf1ea' : 'transparent',
           color: isScrolled ? 'black' : 'white',
@@ -33,7 +35,7 @@ export const Header = () => {
       >
         <Container>
           <Navbar.Brand href="/" className="mt-2">
-            <Logo />
+            {isScrolled ? <LogoBlack /> : <LogoWhite />}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

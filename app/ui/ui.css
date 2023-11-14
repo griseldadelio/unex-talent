@@ -49,12 +49,20 @@ footer {
 }
 /* End Footer CSS */
 
-/* Video Inner */
+/* Video Component */
 .hero_inner {
   width: 100%;
   height: 100vh;
   position: relative;
   overflow: hidden;
+}
+
+.videoContainer {
+  background-color: #666;
+}
+
+.videoLoaded {
+  background-color: transparent; /* Cambia el fondo a transparente cuando el video está cargado */
 }
 
 .video_inner {
@@ -79,7 +87,7 @@ footer {
   margin-top: 300px;
   color: whitesmoke;
 }
-/* End Video Inner */
+/* End Video Component */
 
 /* Card Image */
 .imgcard {
@@ -87,18 +95,6 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-.lista-icon li {
-  list-style: none;
-}
-
-.lista-icon li::before {
-  content: '►';
-  color: black;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-  padding-right: 25px;
 }
 
 /* End Card Image */

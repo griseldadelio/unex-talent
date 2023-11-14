@@ -8,16 +8,16 @@ export default function Consultoria() {
         style={{ minHeight: '600px', paddingTop: '25px' }}
         className=" bg-image consultoria d-flex justify-content-center align-items-center "
       >
-        <h1 className="text-center display-5 fw-bold">
+        <h2 className="text-center display-5 fw-bold">
           <b>CONSULTORÍA EN RRHH</b>
-        </h1>
+        </h2>
       </div>
       <Container className="p-5 ">
         <br />
-        <Row className="mt-3" data-aos="fade-right" data-aos-duration="1500">
+        <Row className="mt-3">
           <Col>
-            <h2 className="px-2"> COACHING </h2>
-            <p className="pt-5">
+            <h3 className="px-2"> COACHING </h3>
+            <p className="pt-2 pt-sm-2 pt-md-5">
               El Coaching es el acompañamiento y entrenamiento a una persona
               enfocado en que alcance las metas que se haya propuesto. En el
               proceso aprenderá a detectar y a potenciar tanto sus habilidades
@@ -29,8 +29,8 @@ export default function Consultoria() {
             </p>
           </Col>
           <Col>
-            <h2 className="px-2"> CAPACITACIÓN Y ENTRENAMIENTO</h2>
-            <p className="pt-2">
+            <h3 className="px-2"> CAPACITACIÓN Y ENTRENAMIENTO</h3>
+            <p className=" pt-sm-2 pt-md-3">
               En Unex Talent dirigimos este proceso enfocándonos en la
               estrategia empresarial de nuestros clientes. En este sentido, un
               buen diagnóstico de las necesidades de la empresa es el primer
@@ -41,8 +41,8 @@ export default function Consultoria() {
             </p>
           </Col>
           <Col>
-            <h2 className="px-2"> MENTORING</h2>
-            <p className="pt-5">
+            <h3 className="px-2"> MENTORING</h3>
+            <p className=" pt-sm-2 pt-md-5">
               El mentoring es una estrategia formativa por la cual un
               especialista en un área determinada transmite sus conocimientos y
               habilidades a una persona para ayudarla a que se desarrolle

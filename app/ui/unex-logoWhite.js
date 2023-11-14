@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
-export const Logo = () => {
+export const LogoWhite = () => {
   return (
     <Image
-      src="/UnexTR.png"
+      src="/UnexTRW.png"
       alt="Unex Talent consultora de RRHH"
       width="200"
       height="50"
