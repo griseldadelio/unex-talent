@@ -13,24 +13,33 @@ export const CardImage = () => {
             <Col xs={12} sm={12} md={6}>
               <ul>
                 <li>
-                  Tu socio de RR. HH. externo, sin costos de sueldos que
+                  <b>Tu socio de RR. HH.</b> externo, sin costos de sueldos que
                   perjudiquen la rentabilidad de tu empresa.
                 </li>
-                <li>Mentoring y Coaching empresarial.</li>
-                <li>Evaluación y análisis de procesos de Change Management.</li>
-                <li>Diseño de job description junto al cliente.</li>
+                <li>
+                  Mentoring y <b>Coaching </b> empresarial.
+                </li>
+                <li>
+                  Evaluación y análisis de procesos de <b>Change Management</b>.
+                </li>
+                <li>
+                  Diseño de <b>Job description</b> junto al cliente.
+                </li>
               </ul>
             </Col>
             <Col xs={12} sm={12} md={6}>
               <ul>
                 <li>
-                  Internacional: Ofrecemos servicios de RR. HH. a empresas a lo
-                  largo de todo el mundo.
+                  <b>Servicio Internacional:</b> Ofrecemos servicios de RR. HH.
+                  a empresas a lo largo de todo el mundo.
                 </li>
-                <li>Entrevistas por competencias.</li>
+                <li>
+                  Entrevistas por <b>competencias</b>.
+                </li>
                 <li>Seguimiento del candidato hasta 30 días de su ingreso.</li>
                 <li>
-                  Capacitación personalizada según necesidades del cliente.
+                  <b>Capacitación</b> personalizada según necesidades del
+                  cliente.
                 </li>
               </ul>
             </Col>
