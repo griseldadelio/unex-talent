@@ -1,12 +1,12 @@
 import { VideoComponent } from './ui/videoComponent';
-import { AboutUs } from './ui/aboutUs';
+import { About } from './ui/about';
 import { CardImage } from './ui/cardImage';
 
 export default function Home() {
   return (
     <main>
       <VideoComponent />
-      <AboutUs />
+      <About />
       <CardImage />
     </main>
   );

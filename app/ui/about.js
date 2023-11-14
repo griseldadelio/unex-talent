@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Row, Container } from 'react-bootstrap';
 
-export const AboutUs = () => {
+export const About = () => {
   return (
     <Container id="nosotros">
       <Row className="p-4">
