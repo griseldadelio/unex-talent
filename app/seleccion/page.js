@@ -1,9 +1,11 @@
 import React from 'react';
+import { Header } from '../ui/header';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Seleccion() {
   return (
     <>
+      <Header />
       <div
         style={{ minHeight: '600px', paddingTop: '25px' }}
         className=" bg-image search d-flex justify-content-center align-items-center "
@@ -25,8 +27,8 @@ export default function Seleccion() {
             </p>
             <ul>
               <li>
-                Unex Talent diseña junto al cliente el job description que se
-                ajuste a las necesidades del rol a cubrir.
+                <b>Unex Talent </b> diseña junto al cliente el job description
+                que se ajuste a las necesidades del rol a cubrir.
               </li>
               <li>
                 Detectamos talentos en base a la publicación del aviso que
@@ -51,9 +53,9 @@ export default function Seleccion() {
             </p>
             <ul>
               <li>
-                El principal valor que distingue a Unex Talent es el nivel de
-                confidencialidad del proceso garantizando discreción tanto para
-                la empresa como para el candidato.
+                El principal valor que distingue a <b>Unex Talent </b> es el
+                nivel de confidencialidad del proceso garantizando discreción
+                tanto para la empresa como para el candidato.
               </li>
               <li>
                 Generamos en el candidato la necesidad real de cambio que
@@ -75,8 +77,8 @@ export default function Seleccion() {
             </p>
             <ul>
               <li>
-                En Unex Talent, tenemos un equipo de recruiters abocados de
-                lleno al mundo IT.
+                En <b>Unex Talent </b> , tenemos un equipo de recruiters
+                abocados de lleno al mundo IT.
               </li>
               <li>
                 Nos basamos en procesos de selección enfocados en el perfil

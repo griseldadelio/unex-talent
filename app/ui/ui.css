@@ -42,7 +42,6 @@ footer {
 .changepage {
   margin-left: 5px;
   text-decoration: none;
-  color: #323b40;
 }
 .social-media {
   margin-left: 15px;
@@ -129,3 +128,7 @@ footer {
 }
 
 /* End Image Inner */
+.btn-primary {
+  background-color: #0fa54d !important;
+  border-color: #d0ebcb !important ;
+}

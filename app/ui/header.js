@@ -49,7 +49,7 @@ export const Header = () => {
               <Link className="ps-4" href="/consultoria">
                 <h4>Consultoría</h4>
               </Link>
-              <Link className="ps-4" href="/#contacto">
+              <Link className="ps-4" href="/contacto">
                 <h4>Contacto</h4>
               </Link>
             </Nav>

@@ -1,6 +1,5 @@
 import { Inter } from 'next/font/google';
 import { AOSInit } from './lib/aos';
-import { Header } from './ui/header';
 import { Footer } from './ui/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
@@ -16,7 +15,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
         {children}
         <Footer />
       </body>
