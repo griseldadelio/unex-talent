@@ -22,7 +22,11 @@ export const Footer = () => {
             </div>
             <div className="pt-3">
               <Icon.GeoAlt />
-              &nbsp; O"Higgins 2199, CABA, Buenos Aires.
+              &nbsp; O'Higgins 2199, CABA, Buenos Aires.
+            </div>
+            <div className="pt-3">
+              <Icon.GeoAlt />
+              &nbsp; Av. De Atenas 46. Las Rozas de Madrid, Madrid. CP 28290
             </div>
           </Col>
           <Col xs={12} sm={12} md={4}>
@@ -39,7 +43,7 @@ export const Footer = () => {
             <div className="social-media">
               <a
                 className="link"
-                href="https://www.linkedin.com/in/unextalent/"
+                href="https://www.linkedin.com/in/unex-talent/"
                 target="blank"
               >
                 <Icon.Linkedin className="Icon" />

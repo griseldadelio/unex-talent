@@ -35,6 +35,11 @@ export default function Contacto() {
               <br />
               &nbsp;Ciudad de Buenos Aires, Argentina
             </div>
+            <div className="pt-3">
+              &nbsp; Av. De Atenas 46, CP 28290
+              <br />
+              &nbsp; Las Rozas de Madrid, Madrid.
+            </div>
             <div className="social-media">
               <a
                 className="link"
